@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Encabezado -->
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="409dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="#B518E4"
+        android:text="ApplicationDialogs"
+        android:textAlignment="inherit"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <!-- Botón 1 -->
+    <Button
+        android:id="@+id/dialogButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="33dp"
+        android:backgroundTint="#E7E4E4"
+        android:text="DIALEG 1"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp" />
+
+    <!-- Botón 2 -->
+    <Button
+        android:id="@+id/dialogButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#E7E4E4"
+        android:text="DIALEG 2"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp" />
+
+    <!-- Botón 3 -->
+    <Button
+        android:id="@+id/dialogButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerText"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="287dp"
+        android:backgroundTint="#E7E4E4"
+        android:text="DIALEG 3"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp" />
+
+    <!-- Texto -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="18sp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
